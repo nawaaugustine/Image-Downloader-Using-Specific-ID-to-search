@@ -12,7 +12,7 @@ const url = 'https://kobo.unhcr.org/api/v2/assets/a9bsMNixpr7VEtKBGUhtvf/data/?f
 
 // Headers containing the authentication token
 const headers = {
-  Authorization: `Bearer ${config.AUTH_TOKEN}`,
+  Authorization: `Token ${config.AUTH_TOKEN}`,
 };
 
 // Function to download image
