@@ -1,0 +1,10 @@
+# .gitignore
+
+# Exclude config file
+config.json
+
+# Ignore images folder
+node_module/
+
+# Ignore zip folder
+*.jpg
